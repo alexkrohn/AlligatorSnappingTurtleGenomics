@@ -9,13 +9,13 @@ library(ggtree)
 
 
 # Set working directory where you want the results and new VCFs to go
-setwd("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/genetic-diversity/") 
+setwd("AlligatorSnappingTurtleGenomics/genetic-diversity/") 
 
 # Import pop data with individuals you want to keep in the VCF
-pop.data <- read_delim("/Users/AirAlex/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/metadata-86-inds.csv", delim = ",")
+pop.data <- read_delim("metadata/metadata-86-inds.csv", delim = ",")
 
 # Set main VCF location
-main.vcf <- "/Users/AirAlex/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/88clust-111inds.vcf"
+main.vcf <- "raw-data/88clust-111inds.vcf"
 
 name.for.run <- "86inds"
 
@@ -40,7 +40,8 @@ for (i in prop.missing.data){
   # Subset to 1 SNP per locus
   system(paste("python --version")) # Note the next script must be run in python 2.7
   
-  system(paste("python ~/Documents/NorthCarolina/TangledBank/tbc-hub/3rad-analyses/subsetSNPs.py ", new.vcf, " ", name.for.run,"-",i,"missing.vcf", sep = ""))
+  # SubsetSNPs script comes from here: https://github.com/ksil91/Ostrea_PopStructure/blob/master/Scripts/subsetSNPs.py
+  system(paste("python subsetSNPs.py ", new.vcf, " ", name.for.run,"-",i,"missing.vcf", sep = ""))
   
   system(paste("rm ", new.vcf))
   
@@ -73,11 +74,6 @@ for (i in prop.missing.data){
   ho <- Ho(df)
   fis <- 1-(ho/hs)
  
-  
-  # WC84 Fst
-  # print(paste("Calculating Fst for ", i, " proportion missing data. Started at ", Sys.time(), sep = ""))
-  # wc84 <- as.matrix(genet.dist(df, method = "WC84"))
-
   ### Dosage based FST
   # Load vcf directly for dosage based FST
   # Load VCF to hierstat
