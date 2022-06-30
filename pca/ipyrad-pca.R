@@ -5,13 +5,13 @@ library(tidyverse)
 library(ggnewscale)
 
 # Import ipyrad PCA output of Eigen vectors
-pca.data <- read.table("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/pca/pca-df-mincov5-no-pops-with-1ind.csv", sep=",", skip = 1)
+pca.data <- read.table("pca-df-mincov5-no-pops-with-1ind.csv", sep=",", skip = 1)
 
 # Rename first column as ind to match csv
 pca.data$ind <- pca.data$V1
 
 # Import pop data
-pop.data <- read.table("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/104inds-just-inds-and-pops.csv", sep = ",", header=TRUE)
+pop.data <- read.table("../metadata/104inds-just-inds-and-pops.csv", sep = ",", header=TRUE)
 
 # Join them by ind
 fulldataset <- left_join(pca.data, pop.data, by= "ind")
