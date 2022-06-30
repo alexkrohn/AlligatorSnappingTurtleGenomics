@@ -9,10 +9,10 @@ import ipyrad.analysis as ipa
 import pandas as pd
 
 # Specify the dataset
-data = "/media/tangled/raw_data_backup/20210600_MATE-combined-3rad/88clust-111inds_outfiles/88clust-111inds.snps.hdf5"
+data = "../raw-data/88clust-111inds.snps.hdf5"
 
 # Specify to the metadata subsets that you want to analyze
-dfs = ["/media/tangled/raw_data_backup/20210600_MATE-combined-3rad/rad-seq-data-analysis/structure/all-86-inds/metadata-86-inds.csv",  "/media/tangled/raw_data_backup/20210600_MATE-combined-3rad/rad-seq-data-analysis/structure/no-app-suwannee/metadata-no-suwannee-or-appalachicolae.csv", "/media/tangled/raw_data_backup/20210600_MATE-combined-3rad/rad-seq-data-analysis/structure/no-suwannee"]
+dfs = ["../metadata/metadata-86-inds.csv",  "/media/tangled/raw_data_backup/20210600_MATE-combined-3rad/rad-seq-data-analysis/structure/no-app-suwannee/metadata-no-suwannee-or-appalachicolae.csv", "/media/tangled/raw_data_backup/20210600_MATE-combined-3rad/rad-seq-data-analysis/structure/no-suwannee"]
 
 # Specify a list of names in the same order as dfs
 names = ["all-83-inds", "no-suwannee", "no-app-suwannee"]
