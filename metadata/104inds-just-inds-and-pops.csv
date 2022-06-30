@@ -1,105 +1,105 @@
-ind,pop,tree.name
-MATE094,San Jacinto,San Jacinto-MATE094
-MATE096,San Jacinto,San Jacinto-MATE096
-MATE113,Red,Red-MATE113
-MATE116,Ochlockonee,Ochlockonee-MATE116
-MATE119,Chipola,Chipola-MATE119
-MATE130,Pearl,Pearl-MATE130
-MATE132,Pearl,Pearl-MATE132
-MATE136,Yazoo,Yazoo-MATE136
-MATE139,Yazoo,Yazoo-MATE139
-MATE150,Yazoo,Yazoo-MATE150
-MATE151,Yazoo,Yazoo-MATE151
-MATE154,Big Black,Big Black-MATE154
-MATE155,Big Black,Big Black-MATE155
-MATE166,Pearl,Pearl-MATE166
-MATE168,Big Black,Big Black-MATE168
-MATE169,Big Black,Big Black-MATE169
-MATE178,Hatchie,Hatchie-MATE178
-MATE179,Hatchie,Hatchie-MATE179
-MATE180,Hatchie,Hatchie-MATE180
-MATE187,Neches,Neches-MATE187
-MATE188,Neches,Neches-MATE188
-MATE192,Neches,Neches-MATE192
-MATE194,Neches,Neches-MATE194
-MATE202,Neches,Neches-MATE202
-MATE203,Neches,Neches-MATE203
-MATE209,Trinity,Trinity-MATE209
-MATE211,Trinity,Trinity-MATE211
-MATE217,Sabine,Sabine-MATE217
-MATE219,Sabine,Sabine-MATE219
-MATE224,Sulphur,Sulphur-MATE224
-MATE225,Sulphur,Sulphur-MATE225
-MATE226,Sulphur,Sulphur-MATE226
-MATE229,Sabine,Sabine-MATE229
-MATE230,Sabine,Sabine-MATE230
-MATE233,Trinity,Trinity-MATE233
-MATE236,Trinity,Trinity-MATE236
-MATE237,Trinity,Trinity-MATE237
-MATE238,Trinity,Trinity-MATE238
-MATE240,San Jacinto,San Jacinto-MATE240
-MATE241,San Jacinto,San Jacinto-MATE241
-MATE242,Neches,Neches-MATE242
-MATE243,Neches,Neches-MATE243
-MATE247,Sulphur,Sulphur-MATE247
-MATE248,San Jacinto,San Jacinto-MATE248
-MATE250,Sabine,Sabine-MATE250
-MATE251,Sabine,Sabine-MATE251
-MATE252,Trinity,Trinity-MATE252
-MATE253,Bon Secour,Bon Secour-MATE253
-MATE254,Bon Secour,Bon Secour-MATE254
-MATE256,Fowl,Fowl-MATE256
-MATE257,Fowl,Fowl-MATE257
-MATE259,Magnolia,Magnolia-MATE259
-MATE260,Magnolia,Magnolia-MATE260
-MATE262,Apalachicola,Apalachicola-MATE262
-MATE263,Apalachicola,Apalachicola-MATE263
-MATE264,Apalachicola,Apalachicola-MATE264
-MATE265,Apalachicola,Apalachicola-MATE265
-MATE267,Apalachicola,Apalachicola-MATE267
-MATE268,Alabama,Alabama-MATE268
-MATE269,Alabama,Alabama-MATE269
-MATE272,Perdido,Perdido-MATE272
-MATE273,Perdido,Perdido-MATE273
-MATE277,Conecuh,Conecuh-MATE277
-MATE279,Conecuh,Conecuh-MATE279
-MATE282,Magnolia,Magnolia-MATE282
-MATE298,Perdido,Perdido-MATE298
-MATE316,Pascagoula,Pascagoula-MATE316
-MATE317,Pascagoula,Pascagoula-MATE317
-MATE319,Pascagoula,Pascagoula-MATE319
-MATE320,Pascagoula,Pascagoula-MATE320
-MATE325,Pascagoula,Pascagoula-MATE325
-MATE329,Pascagoula,Pascagoula-MATE329
-MATE330,Pascagoula,Pascagoula-MATE330
-MATE336,Tombigbee,Tombigbee-MATE336
-MATE337,Tombigbee,Tombigbee-MATE337
-MATE346,Yazoo,Yazoo-MATE346
-MATE347,Yazoo,Yazoo-MATE347
-MATE351,Jourdan,Jourdan-MATE351
-MATE418,Ochlockonee,Ochlockonee-MATE418
-MATE419,Ochlockonee,Ochlockonee-MATE419
-MATE420,Wetappo,Wetappo-MATE420
-MATE421,Wetappo,Wetappo-MATE421
-MATE423,Suwannee,Suwannee-MATE423
-MATE424,Suwannee,Suwannee-MATE424
-MATE425,Suwannee,Suwannee-MATE425
-MATE426,Suwannee,Suwannee-MATE426
-MATE427,Suwannee,Suwannee-MATE427
-MATE428,Suwannee,Suwannee-MATE428
-MATE429,Suwannee,Suwannee-MATE429
-MATE430,Suwannee,Suwannee-MATE430
-MATE431,Blackwater,Blackwater-MATE431
-MATE432,Blackwater,Blackwater-MATE432
-MATE433,Blackwater,Blackwater-MATE433
-MATE435,Chipola,Chipola-MATE435
-MATE436,Blackwater,Blackwater-MATE436
-MATE437,Blackwater,Blackwater-MATE437
-MATE443,Econfina,Econfina-MATE443
-MATE444,Econfina,Econfina-MATE444
-MATE445,Econfina,Econfina-MATE445
-MATE447,Conecuh,Conecuh-MATE447
-MATE455,Apalachicola,Apalachicola-MATE455
-MATE456,Apalachicola,Apalachicola-MATE456
-MATE458,Ochlockonee,Ochlockonee-MATE458
-MATE461,Ochlockonee,Ochlockonee-MATE461
+ind,pop,dummypop,tree.name
+MATE094,San Jacinto,dummypop,San Jacinto-MATE094
+MATE096,San Jacinto,dummypop,San Jacinto-MATE096
+MATE113,Red,dummypop,Red-MATE113
+MATE116,Ochlockonee,dummypop,Ochlockonee-MATE116
+MATE119,Chipola,dummypop,Chipola-MATE119
+MATE130,Pearl,dummypop,Pearl-MATE130
+MATE132,Pearl,dummypop,Pearl-MATE132
+MATE136,Yazoo,dummypop,Yazoo-MATE136
+MATE139,Yazoo,dummypop,Yazoo-MATE139
+MATE150,Yazoo,dummypop,Yazoo-MATE150
+MATE151,Yazoo,dummypop,Yazoo-MATE151
+MATE154,Big Black,dummypop,Big Black-MATE154
+MATE155,Big Black,dummypop,Big Black-MATE155
+MATE166,Pearl,dummypop,Pearl-MATE166
+MATE168,Big Black,dummypop,Big Black-MATE168
+MATE169,Big Black,dummypop,Big Black-MATE169
+MATE178,Hatchie,dummypop,Hatchie-MATE178
+MATE179,Hatchie,dummypop,Hatchie-MATE179
+MATE180,Hatchie,dummypop,Hatchie-MATE180
+MATE187,Neches,dummypop,Neches-MATE187
+MATE188,Neches,dummypop,Neches-MATE188
+MATE192,Neches,dummypop,Neches-MATE192
+MATE194,Neches,dummypop,Neches-MATE194
+MATE202,Neches,dummypop,Neches-MATE202
+MATE203,Neches,dummypop,Neches-MATE203
+MATE209,Trinity,dummypop,Trinity-MATE209
+MATE211,Trinity,dummypop,Trinity-MATE211
+MATE217,Sabine,dummypop,Sabine-MATE217
+MATE219,Sabine,dummypop,Sabine-MATE219
+MATE224,Sulphur,dummypop,Sulphur-MATE224
+MATE225,Sulphur,dummypop,Sulphur-MATE225
+MATE226,Sulphur,dummypop,Sulphur-MATE226
+MATE229,Sabine,dummypop,Sabine-MATE229
+MATE230,Sabine,dummypop,Sabine-MATE230
+MATE233,Trinity,dummypop,Trinity-MATE233
+MATE236,Trinity,dummypop,Trinity-MATE236
+MATE237,Trinity,dummypop,Trinity-MATE237
+MATE238,Trinity,dummypop,Trinity-MATE238
+MATE240,San Jacinto,dummypop,San Jacinto-MATE240
+MATE241,San Jacinto,dummypop,San Jacinto-MATE241
+MATE242,Neches,dummypop,Neches-MATE242
+MATE243,Neches,dummypop,Neches-MATE243
+MATE247,Sulphur,dummypop,Sulphur-MATE247
+MATE248,San Jacinto,dummypop,San Jacinto-MATE248
+MATE250,Sabine,dummypop,Sabine-MATE250
+MATE251,Sabine,dummypop,Sabine-MATE251
+MATE252,Trinity,dummypop,Trinity-MATE252
+MATE253,Bon Secour,dummypop,Bon Secour-MATE253
+MATE254,Bon Secour,dummypop,Bon Secour-MATE254
+MATE256,Fowl,dummypop,Fowl-MATE256
+MATE257,Fowl,dummypop,Fowl-MATE257
+MATE259,Magnolia,dummypop,Magnolia-MATE259
+MATE260,Magnolia,dummypop,Magnolia-MATE260
+MATE262,Apalachicola,dummypop,Apalachicola-MATE262
+MATE263,Apalachicola,dummypop,Apalachicola-MATE263
+MATE264,Apalachicola,dummypop,Apalachicola-MATE264
+MATE265,Apalachicola,dummypop,Apalachicola-MATE265
+MATE267,Apalachicola,dummypop,Apalachicola-MATE267
+MATE268,Alabama,dummypop,Alabama-MATE268
+MATE269,Alabama,dummypop,Alabama-MATE269
+MATE272,Perdido,dummypop,Perdido-MATE272
+MATE273,Perdido,dummypop,Perdido-MATE273
+MATE277,Conecuh,dummypop,Conecuh-MATE277
+MATE279,Conecuh,dummypop,Conecuh-MATE279
+MATE282,Magnolia,dummypop,Magnolia-MATE282
+MATE298,Perdido,dummypop,Perdido-MATE298
+MATE316,Pascagoula,dummypop,Pascagoula-MATE316
+MATE317,Pascagoula,dummypop,Pascagoula-MATE317
+MATE319,Pascagoula,dummypop,Pascagoula-MATE319
+MATE320,Pascagoula,dummypop,Pascagoula-MATE320
+MATE325,Pascagoula,dummypop,Pascagoula-MATE325
+MATE329,Pascagoula,dummypop,Pascagoula-MATE329
+MATE330,Pascagoula,dummypop,Pascagoula-MATE330
+MATE336,Tombigbee,dummypop,Tombigbee-MATE336
+MATE337,Tombigbee,dummypop,Tombigbee-MATE337
+MATE346,Yazoo,dummypop,Yazoo-MATE346
+MATE347,Yazoo,dummypop,Yazoo-MATE347
+MATE351,Jourdan,dummypop,Jourdan-MATE351
+MATE418,Ochlockonee,dummypop,Ochlockonee-MATE418
+MATE419,Ochlockonee,dummypop,Ochlockonee-MATE419
+MATE420,Wetappo,dummypop,Wetappo-MATE420
+MATE421,Wetappo,dummypop,Wetappo-MATE421
+MATE423,Suwannee,dummypop,Suwannee-MATE423
+MATE424,Suwannee,dummypop,Suwannee-MATE424
+MATE425,Suwannee,dummypop,Suwannee-MATE425
+MATE426,Suwannee,dummypop,Suwannee-MATE426
+MATE427,Suwannee,dummypop,Suwannee-MATE427
+MATE428,Suwannee,dummypop,Suwannee-MATE428
+MATE429,Suwannee,dummypop,Suwannee-MATE429
+MATE430,Suwannee,dummypop,Suwannee-MATE430
+MATE431,Blackwater,dummypop,Blackwater-MATE431
+MATE432,Blackwater,dummypop,Blackwater-MATE432
+MATE433,Blackwater,dummypop,Blackwater-MATE433
+MATE435,Chipola,dummypop,Chipola-MATE435
+MATE436,Blackwater,dummypop,Blackwater-MATE436
+MATE437,Blackwater,dummypop,Blackwater-MATE437
+MATE443,Econfina,dummypop,Econfina-MATE443
+MATE444,Econfina,dummypop,Econfina-MATE444
+MATE445,Econfina,dummypop,Econfina-MATE445
+MATE447,Conecuh,dummypop,Conecuh-MATE447
+MATE455,Apalachicola,dummypop,Apalachicola-MATE455
+MATE456,Apalachicola,dummypop,Apalachicola-MATE456
+MATE458,Ochlockonee,dummypop,Ochlockonee-MATE458
+MATE461,Ochlockonee,dummypop,Ochlockonee-MATE461
