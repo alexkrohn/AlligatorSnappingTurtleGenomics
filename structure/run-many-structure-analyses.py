@@ -2,7 +2,7 @@
 
 # Loop through a bunch of subsets of one dataset, run Structure on all of them for a specified number of Ks
 
-# Before running ths script with `python run-all-structure-plots-again.py` change line 12, 16, 19, and 23.
+# Before running ths script with `python run-all-structure-plots-again.py` change line 12, 15, 18, and 21. Also change the name of the population column in line 29.
 # The script will automatically run 20 runs of Structure for the Ks you provide with 100k burn in and replications, save outputs for all Ks, and save the Evanno table.
 
 import ipyrad.analysis as ipa
