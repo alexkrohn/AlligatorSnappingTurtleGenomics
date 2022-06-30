@@ -1,5 +1,5 @@
 ## Attempt to quantify IBD!
-setwd("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/ibd/")
+setwd("AlligatorSnappingTurtleGenomics/ibd/")
 
 # Plot pairwise genetic and geographic distance
 library(RgoogleMaps)
@@ -8,14 +8,14 @@ library(gdata)
 library(tidyverse)
 
 # Use mean pairwise Fsts
-fsts <- read.table("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/genetic-diversity/fst_means_final.csv", sep = ",", header = TRUE)
+fsts <- read.table("fst_means_final.csv", sep = ",", header = TRUE)
 
 # Remove negative values (from pops with n=1 or 2)
 fsts[fsts <= 0] <- NA
 fsts[fsts == 0] <- NA
 
 # Load lat, longs and population identifications. Note the lat/long info is not available on GitHub due to poaching concerns.
-metadata <- read.table("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/metadata-86-inds.csv", sep = ",", header = TRUE, fill = TRUE)
+metadata <- read.table("../metadata/metadata-86-inds.csv", sep = ",", header = TRUE, fill = TRUE)
 
 # Take mean lat and longs for each population
 mean.pop.latlongs <- metadata %>%
