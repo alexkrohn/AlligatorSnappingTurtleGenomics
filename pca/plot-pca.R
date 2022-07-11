@@ -58,12 +58,9 @@ ggplot(mapping = aes(x = V2, y = V3)) +
   geom_point(data = assemblage.list$`Western Assemblage from MS River Westward`, aes(col = pop), size = 4) +
   scale_colour_manual(values = west.of.ms.cols,
                       guide = guide_legend(order = 3, title = "Western Assemblage West of MS River"))+
-  xlab("PC2 (11.5% variance explained)")+
-  ylab("PC3 (9.9% variance explained)")+
+  xlab("PC2 (29.9% variance explained)")+
+  ylab("PC3 (11.5% variance explained)")+
   theme_bw(base_size = 12) +
   theme(legend.position = "bottom", 
         legend.box = "vertical",
         legend.box.just = "left")
-  
-
-filter(fulldataset, V2 > 3.5 & V2 < 10)
