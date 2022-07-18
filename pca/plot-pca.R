@@ -1,6 +1,6 @@
 # Make PCA from ipyrad PCA output
 
-# On 104 Alligator Snapping Turtle individuals, 1973 SNPs, one SNP per locus post filtering
+# On 104 Alligator Snapping Turtle individuals, 4010 SNPs, one SNP per locus post filtering
 library(tidyverse)
 library(ggnewscale)
 
