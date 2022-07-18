@@ -7,14 +7,14 @@ library(ape)
 library(treeio)
 
 # Consensus tree from iqtree
-iqtree <- read.newick("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/tree/iqtree/iqtree-8maxmissing-biallelic-86inds.min1.phy.contree", node.label = "support")
+iqtree <- read.newick("iqtree-8maxmissing-biallelic-86inds.min1.phy.contree", node.label = "support")
 
 # Root around Suwaneensis
 iqtree.rooted <- ape::root(phy = iqtree, outgroup = "MATE423", resolve.root = FALSE ) 
 
 
 # Convert to tibble, then add correct names 
-new.names <- read.table("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/metadata-86-inds.csv", header=TRUE, sep = ",") %>%
+new.names <- read.table("../metadata/metadata-86-inds.csv", header=TRUE, sep = ",") %>%
   mutate(new.names = paste(ind,"-", pop, sep = "")) %>%
   rename(label = ind) %>%
   dplyr::select(label, new.names)
@@ -23,12 +23,8 @@ rooted.tree.with.names <- as_tibble(iqtree.rooted) %>%
   left_join(., new.names, by = "label")
 
 
-
 # Convert back to tree
 tree.with.names <- as.treedata(rooted.tree.with.names)
-
-
-
 
 # Plot tree, with nodes bootstraps > 85 labelled
 ggtree(tree.with.names)+
@@ -37,7 +33,6 @@ ggtree(tree.with.names)+
                      subset = support >= 85))+
   xlim(0,1)+
   theme_tree2()
-
 
 # Color the tree based on the PCA colors
 
