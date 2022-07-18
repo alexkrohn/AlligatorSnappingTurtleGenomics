@@ -1,0 +1,33 @@
+---
+title: "Tree Estimation with iqTree"
+author: "Alex Krohn^[alex@tbconservation.org]"
+date: "7/1/2022"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(eval = FALSE, tidy.opts=list(width.cutoff=80), tidy=TRUE)
+setwd("~/Documents/NorthCarolina/TangledBank/ast/data-analysis-combined-runs/111inds-no-confiscated-inds/low-missing-inds-only/tree/iqtree/")
+```
+
+# Introduction
+This script takes you through the steps of subsetting data, then running iqTree to infer a phylogeny.
+
+# Convert to Phylip
+This starting dataset is the same as the Structure analyses. We just need to convert it to Phylip
+```{bash}
+python ~/codes/vcf2phylip/vcf2phylip.py -m 1 -i ../../faststructure/all86inds-output/mod_allinds-8maxmissing-biallelic.recode.vcf --output-prefix iqtree-8maxmissing-biallelic-86inds
+```
+
+Still includes 17,699 unlinked SNPs and 86 individuals.
+
+# Run iqTree 
+Run iqTree for 5000 ultrafast bootstraps, using ModelTest to find the best substitution model. Use up to 90% of memory and 70 cores. 
+
+```{bash}
+iqtree -s iqtree-8maxmissing-biallelic-86inds.phylip -T 40 -B 5000 -mem 70% -nm 5000
+
+```
+
