@@ -4,5 +4,5 @@ This repo contains scripts necessary to reproduce all of the analyses conducted 
 
 If you use these scripts or analyses in your work, please cite the original program's creators, and:
 
-Apodaca, JJ, A. Krohn, L. Collins, J. Godwin, L. Pearson, and A. Walde. Population Structure and Genetic Differentiation in Extant Alligator Snapping Turtles (genus Macrochelys) With Implications for Taxonomy and Conservation. *in press* at Southeastern Naturalist
+Apodaca, JJ, A. Krohn, L. Collins, J. Godwin, L. Pearson, and A. Walde. 2023. Population Structure and Genetic Differentiation in Extant Alligator Snapping Turtles (genus *Macrochelys*) with Implications for Taxonomy and Conservation. Southeastern Naturalist 22(sp12):1-24 https://doi.org/10.1656/058.022.0sp1201
 
